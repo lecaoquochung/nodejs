@@ -37,7 +37,23 @@ npm start
 
 ### Routes & Views
 
-###Database & Models
+### Database & Models
+- Mongodb
+'''
+mongod // start server
+mongo // connect to server
+show dbs
+use project07 // create db 
+db.createCollection('books');
+db.createCollection('categorites');
+show collections;
+db.books.insert({title:"Book 01 title",description:"Book 01 description",category:"Nodejs",author:"Le Hung",publisher:"somewhere",price:"19.99",cover:"node1.jpg"})
+db.books.insert({title:"Book 02 title",description:"Book 02 description",category:"Nodejs",author:"Le Hung",publisher:"somewhere",price:"29.99",cover:"node2.jpg"})
+db.books.find()
+'''
+
+- Reference
+ - https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
 
 ### Admin CRUD
 
