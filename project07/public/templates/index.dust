@@ -1,4 +1,4 @@
-{>"layouts/master" /}
+{>"layouts/default" /}
 
 {<body}
     {#books}

@@ -3,11 +3,11 @@
     <head>
         <meta charset="utf-8" />
         <title>{+title /}</title>
-    
+
         <link rel="stylesheet" href="/css/app.css">
         <link rel="stylesheet" href="/css/foundation.css">
         <link rel="stylesheet" href="/css/style.css">
-    
+
     </head>
     <body>
 
@@ -23,14 +23,14 @@
                     <div class="top-bar-left">
                         <ul class="menu">
                             <li><a href="/">Home</a></li>
-                            <li><a href="#">About</a></li>
+                            <li><a href="/pages/about">About</a></li>
                             <li><a href="#">Cart</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        
+
         <div class="row">
             <div class="large-12 columns">
                 <div id="wrapper">
@@ -46,8 +46,8 @@
                 </div>
             </div>
         </footer>
-    
+
         <script data-main="/js/app" src="/components/requirejs/require.js"></script>
-    
+
     </body>
 </html>

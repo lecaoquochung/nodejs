@@ -1,4 +1,4 @@
-{>"layouts/master" /}
+{>"layouts/default" /}
 
 {<body}
     <h1>{@pre type="content" key="header"/}</h1>
