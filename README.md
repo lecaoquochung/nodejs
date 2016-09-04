@@ -5,7 +5,7 @@
 - [ ] Project 04: Login system
 - [ ] Project 05: Job Board (MEAN.js)
 - [ ] Project 06: Image Sharing API
-- [ ] Project 07: Shopping Cart
+- [x] Project 07: Shopping Cart
 - [ ] Project 08: Community Events
 - [ ] Project 09: ChatIO (web socket)
 - [ ] Project 10: Find data (Cassandra)
@@ -104,8 +104,17 @@ res.render('index', model);
 - List & Add
 
 ### Shopping Cart
+'''
+npm install dustjs-helpers --save // view helpers
+'''
 
-- Reference
+### Expansion
+- Login
+- Template
+- Contact form
+- Locale language 
+
+### Reference
  - http://krakenjs.com/
  - http://foundation.zurb.com/
 
