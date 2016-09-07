@@ -14,7 +14,7 @@
 - [ ] Project 13: Recipe (PostgreSQL)
 - [ ] Reference
 
-## Project 01: Contact form
+## Project 01: Contact Form
 
 ## Project 02: Website
 - Express
@@ -23,17 +23,25 @@
 - Contact
 
 ## Project 03: Blog
-- Mongodb
-- Middleware
-- Routes & Views
-- Categories
-- Articles
-- Comments
+- [ ] Mongodb
+- [ ] Middleware
+- [ ] Routes & Views
+- [ ] Categories
+- [ ] Articles
+- [ ] Comments
+
+## Project 04: Login system
 
 ## Project 07: Shopping Cart
+- [x] Init
+- [x] Routes & Views
+- [x] Database & Models
+- [x] Admin CRUD
+- [x] Shopping Cart
+- [ ] Expansion
 
 ### Init
-- kranken & foundation
+- kranken & foundation http://krakenjs.com/
 ```
 npm install -g yo generator-kraken bower grunt-cli
 yo kraken
@@ -112,11 +120,24 @@ npm install dustjs-helpers --save // view helpers
 - Login
 - Template
 - Contact form
-- Locale language 
+- Locale language
 
 ### Reference
  - http://krakenjs.com/
  - http://foundation.zurb.com/
+
+## Project 09: ChatIO (web socket)
+### Chat Interface
+- Raw HTML, CSS 
+
+### Sending Chat Message
+
+### User Functionality
+
+### Deploy with Heroku
+
+### Reference
+- SocketIO http://socket.io/docs/
 
 ## Reference
 - mlab.com
