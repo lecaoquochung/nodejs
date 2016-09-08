@@ -12,6 +12,7 @@
 - [ ] Project 11: Personal Portfolio (MySQL)
 - [ ] Project 12: Elearning (access permission basic)
 - [ ] Project 13: Recipe (PostgreSQL)
+- [ ] Project 14: SocketIO
 - [ ] Reference
 
 ## Project 01: Contact Form
@@ -128,7 +129,7 @@ npm install dustjs-helpers --save // view helpers
 
 ## Project 09: ChatIO (web socket)
 ### Chat Interface
-- Raw HTML, CSS 
+- Raw HTML, CSS
 
 ### Sending Chat Message
 
@@ -139,6 +140,39 @@ npm install dustjs-helpers --save // view helpers
 ### Reference
 - SocketIO http://socket.io/docs/
 
+## Project 14: SocketIO
+### Init
+- Raw HTML, CSS
+- Localhost http://localhost/projects/nodejs/project14/frontend.html
+
+### Communication
+- client -> server (broadcast)
+- server -> client (broadcast)
+ - server assigns a color to user
+ - server sends entire message history
+ - server broadcasts a message to all users
+
+```
+npm install websocket
+```
+
+### Front-end Javascript
+
+
+### Up & Running the Server
+
+### Expansion
+- Data & Statistics
+- Running under windows
+
+### Reference
+- http://usualcarrot.com/nodejs-and-websocket-simple-chat-tutorial
+- In-depth websocket http://lucumr.pocoo.org/2012/9/24/websockets-101/ (own backend application for web socket like Java, C++)
+- Nodejs Websocket https://github.com/miksago/node-websocket-server
+- Web Socket for window user https://github.com/theturtle32/WebSocket-Node#note-for-windows-users
+- V8 JavaScript Engine https://bugs.chromium.org/p/v8/issues/list
+
 ## Reference
 - mlab.com
 - http://jedireza.github.io/drywall
+- Closure & Javascript https://www.sitepoint.com/google-closure-how-not-to-write-javascript/
