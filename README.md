@@ -13,6 +13,8 @@
 - [ ] Project 12: Elearning (access permission basic)
 - [ ] Project 13: Recipe (PostgreSQL)
 - [ ] Project 14: SocketIO
+- [ ] Project 15: Express Framework
+- [ ] Project 16: Amazon Clone
 - [ ] Reference
 
 ## Project 01: Contact Form
@@ -171,6 +173,36 @@ npm install websocket
 - Nodejs Websocket https://github.com/miksago/node-websocket-server
 - Web Socket for window user https://github.com/theturtle32/WebSocket-Node#note-for-windows-users
 - V8 JavaScript Engine https://bugs.chromium.org/p/v8/issues/list
+
+## Project 15: Express Framework
+### Navigation
+- [ ] Init
+- [ ] Write file
+- [ ] Read file
+- [ ] Reference
+### Init
+```
+# cmd
+node -v
+npm Init
+npm install --save express
+npm install --save express-handlebars // Express view engine
+
+# package.json
+"private": true, // package.json
+```
+
+### Write file
+
+### Read file
+
+### Reference
+- https://codek.tv/v/xDCKcNBFsuI/express-tutorial/
+
+## Project 16: Amazon Clone
+
+### Reference
+- https://www.udemy.com/build-an-amazon-clone-nodejs-stripe-elasticsearch/?pmtag=SEPT1202
 
 ## Reference
 - mlab.com

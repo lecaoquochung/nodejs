@@ -1,0 +1,16 @@
+{
+  "name": "project15",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express Overview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lecaoquochung@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0"
+  }
+}
