@@ -10,11 +10,17 @@
 - [ ] Project 09: ChatIO (web socket)
 - [ ] Project 10: Find data (Cassandra)
 - [ ] Project 11: Personal Portfolio (MySQL)
-- [ ] Project 12: Elearning (access permission basic)
+- [ ] Project 12: Elearning (User permission basic)
 - [ ] Project 13: Recipe (PostgreSQL)
 - [ ] Project 14: SocketIO
 - [ ] Project 15: Express Framework
-- [ ] Project 16: Amazon Clone
+- [ ] Project 16: E-commerce (Amazon clone)
+- [ ] Project 17: TODO (METEOR.js & Angular) 
+- [ ] Project 18: TODO2 (METEOR.js & React)
+- [ ] Project 19: Tools
+- [ ] Project 20: Forum 
+- [ ] Project 21: Angular
+- [ ] Project 22: React
 - [ ] Reference
 
 ## Project 01: Contact Form
