@@ -3,7 +3,7 @@
 - [ ] Project 02: Website
 - [ ] Project 03: Blog
 - [ ] Project 04: Login system
-- [ ] Project 05: Job Board (MEAN.js)
+- [ ] Project 05: Works (Job board with MEAN.js)
 - [ ] Project 06: Image Sharing API
 - [x] Project 07: Shopping Cart
 - [ ] Project 08: Community Events
@@ -176,7 +176,7 @@ npm install websocket
 
 ## Project 15: Express Framework
 ### Navigation
-- [ ] Init
+- [x] Init
 - [ ] Write file
 - [ ] Read file
 - [ ] Reference
@@ -208,3 +208,4 @@ npm install --save express-handlebars // Express view engine
 - mlab.com
 - http://jedireza.github.io/drywall
 - Closure & Javascript https://www.sitepoint.com/google-closure-how-not-to-write-javascript/
+- SPHINX document http://www.sphinx-doc.org/en/stable/
