@@ -14,7 +14,8 @@
 - [ ] Project 13: Recipe (PostgreSQL)
 - [ ] Project 14: SocketIO
 - [ ] Project 15: Express Framework
-- [ ] Project 16: Amazon Clone
+- [ ] Project 16: E-commerce (Amazon clone)
+- [ ] Project 17: TODO (METEOR.js)
 - [ ] Reference
 
 ## Project 01: Contact Form
