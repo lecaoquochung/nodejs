@@ -1,0 +1,10 @@
+You have new message from {{=it.name}}
+
+{{=it.message}}
+
+
+------------------------
+
+Project learning nodejs
+
+------------------------

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{=it.title}}</title>
+        <meta property="fb:app_id" content=""/>
+        <meta property="og:title" content="{{=it.title}}"/>
+        <meta property="og:type" content="{{=it.type}}"/>
+        <meta property="og:image" content="{{=it.image}}"/>
+        <meta property="og:site_name" content="{{=it.site_name}}"/>
+        <meta property="og:description" content="{{=it.description}}"/>
+    </head>
+    <body>
+    </body>
+</html>
