@@ -15,12 +15,16 @@
 - [ ] Project 14: SocketIO
 - [ ] Project 15: Express Framework
 - [ ] Project 16: E-commerce (Amazon clone)
-- [ ] Project 17: TODO (METEOR.js & Angular) 
+- [ ] Project 17: TODO (METEOR.js & Angular)
 - [ ] Project 18: TODO2 (METEOR.js & React)
 - [ ] Project 19: Tools
-- [ ] Project 20: Forum 
+- [ ] Project 20: Forum
 - [ ] Project 21: Angular
 - [ ] Project 22: React
+- [ ] Project 23: ORM (Database with Sequelize)
+- [ ] Project 24: Promise
+- [ ] Project 25: Mongodb
+- [ ] Project 26:
 - [ ] Reference
 
 ## Project 01: Contact Form

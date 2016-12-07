@@ -3,7 +3,7 @@
 ## GET STARTED
 - Install Meteor.js https://www.meteor.com/install
 ```
-meteor create todo
+curl https://install.meteor.com/ | sh
 cd todo
 meteor npm install
 meteor
