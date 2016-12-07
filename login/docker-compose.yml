@@ -1,0 +1,25 @@
+server:
+  dockerfile: $PWD/server/Dockerfile
+  build: ./server
+  links:
+    - redis
+    - mysql
+  ports:
+    - "8000:8000"
+    - "8001:8001"
+    - "3000:3000"
+  volumes:
+    - $PWD/projects:/home/ubuntu/projects
+  environment:
+    - TERM=xterm
+    - REDIS_PORT=6379
+    - REDIS_HOST=redis
+    - DEPLOY_ENV=local
+
+nginx:
+  dockerfile: $PWD/server/nginxDockerfile
+  build: ./server
+  links:
+    - server
+  ports:
+    - "80:80"
