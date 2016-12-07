@@ -1,0 +1,27 @@
+//- https://naltatis.github.io/jade-syntax-docs/#basics
+doctype html
+html
+
+  head
+    title Nodejs Sendmail 
+    // Bootstrap core CSS
+    link(href='https://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css', rel='stylesheet')
+  
+  body
+   .container
+    .header.clearfix
+     nav
+      ul.nav.nav-pills.float-xs-right
+       li.nav-item
+        a.nav-link(href='/') Home
+       li.nav-item
+        a.nav-link(href='/contact') Contact
+     h3.text-muted Nodejs Sendmail
+
+    .container
+        block content
+    
+    hr
+    
+    footer
+     p(class='text-center') © 2016 HL, Inc.

@@ -1,5 +1,5 @@
 # NODEJS - Practice nodejs
-- [ ] Project 01: Contact form
+- [x] Project 01: Contact form (Sendgrid)
 - [ ] Project 02: Website
 - [ ] Project 03: Blog
 - [ ] Project 04: Login system
@@ -21,13 +21,15 @@
 - [ ] Project 20: Forum
 - [ ] Project 21: Angular
 - [ ] Project 22: React
-- [ ] Project 23: ORM (Database with Sequelize)
+- [ ] Project 23: Validation
 - [ ] Project 24: Promise
 - [ ] Project 25: Mongodb
-- [ ] Project 26:
+- [ ] Project 26: ORM (Database with Sequelize)
+- [ ] Project 23:
 - [ ] Reference
 
 ## Project 01: Contact Form
+- https://github.com/lecaoquochung/nodejs/tree/master/contact
 
 ## Project 02: Website
 - Express
@@ -219,3 +221,21 @@ npm install --save express-handlebars // Express view engine
 - http://jedireza.github.io/drywall
 - Closure & Javascript https://www.sitepoint.com/google-closure-how-not-to-write-javascript/
 - SPHINX document http://www.sphinx-doc.org/en/stable/
+### Bootstrap 4
+- https://v4-alpha.getbootstrap.com/
+```
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+```
+
+### Datetime
+- ISODate https://www.w3.org/QA/Tips/iso-date
+
+### Jade
+- html2jade http://html2jade.org/
+
+### Socket.io
+- Sample chat https://github.com/Automattic/happychat-service
+
+### WP
+- New Wordpress with API https://github.com/Automattic/wp-calypso
