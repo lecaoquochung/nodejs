@@ -1,0 +1,27 @@
+{
+  "name": "orm",
+  "version": "1.0.0",
+  "description": "ORM db with sequelize",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lecaoquochung/nodejs.git"
+  },
+  "keywords": [
+    "Practice",
+    "nodejs"
+  ],
+  "author": "lecaoquochung@gmail.com",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/lecaoquochung/nodejs/issues"
+  },
+  "homepage": "https://github.com/lecaoquochung/nodejs#readme",
+  "dependencies": {
+    "mysql": "^2.12.0",
+    "sequelize": "^3.27.0"
+  }
+}
