@@ -217,10 +217,11 @@ npm install --save express-handlebars // Express view engine
 - https://www.udemy.com/build-an-amazon-clone-nodejs-stripe-elasticsearch/?pmtag=SEPT1202
 
 ## Reference
-- mlab.com
-- http://jedireza.github.io/drywall
-- Closure & Javascript https://www.sitepoint.com/google-closure-how-not-to-write-javascript/
-- SPHINX document http://www.sphinx-doc.org/en/stable/
+### Javascript
+1. "use strict" http://www.w3schools.com/js/js_strict.asp
+2. Code consistency
+- http://stackoverflow.com/questions/242813/when-to-use-double-or-single-quotes-in-javascript#18041188
+
 ### Express
 1. Express validator
 - https://github.com/ctavan/express-validator
@@ -249,3 +250,9 @@ npm install --save express-handlebars // Express view engine
 ### Mongodb
 - Installation Mongodb on Mac http://treehouse.github.io/installation-guides/mac/mongo-mac.html
 - Mongodb documentation https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
+
+### Other
+- mlab.com
+- http://jedireza.github.io/drywall
+- Closure & Javascript https://www.sitepoint.com/google-closure-how-not-to-write-javascript/
+- SPHINX document http://www.sphinx-doc.org/en/stable/

@@ -9,7 +9,9 @@ npm install --save body-parser
 npm install --save nodemailer
 npm install --save express jade
 npm install --save bluebird
-npm install --save dot // template framework
+npm install --save dot
+
+* dot: template framework
 ```
 
 ## Sendgrid

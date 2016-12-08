@@ -2,8 +2,8 @@
 
 require("app-module-path").addPath(__dirname);
 
-var Promise = require("bluebird");
 var express = require('express');
+var Promise = require("bluebird");
 var path = require('path');
 var bodyParser = require('body-parser');
 var nodemailer = require('nodemailer');
