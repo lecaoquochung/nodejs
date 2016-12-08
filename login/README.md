@@ -18,7 +18,7 @@ npm install --save express-validator
 npm install --save jade
 npm install --save mongodb
 npm install --save mongoose
-npm install --save morgan
+npm install --save morgan // image file upload
 npm install --save multer
 npm install --save passport
 npm install --save passport-http
@@ -62,6 +62,19 @@ db.posts.insert({title:"Second Blog Post", category:"Science", author:"Takanashi
 ```
 
 ## Functions
+```
+1. Validation
+req.checkBody
+
+2. Register user
+- Model: models/user.js
+
+3. Hashing password with Bcrypt
+
+4. Passport login authentication
+
+5. Access Control
+```
 
 ## Reference
 - Install mongodb on MAC http://treehouse.github.io/installation-guides/mac/mongo-mac.html

@@ -217,6 +217,10 @@ npm install --save express-handlebars // Express view engine
 - http://jedireza.github.io/drywall
 - Closure & Javascript https://www.sitepoint.com/google-closure-how-not-to-write-javascript/
 - SPHINX document http://www.sphinx-doc.org/en/stable/
+### Express
+1. Express validator
+- https://github.com/ctavan/express-validator
+
 ### Bootstrap 4
 - https://v4-alpha.getbootstrap.com/
 ```
@@ -227,11 +231,17 @@ npm install --save express-handlebars // Express view engine
 ### Datetime
 - ISODate https://www.w3.org/QA/Tips/iso-date
 
-### Jade
-- html2jade http://html2jade.org/
+### Template
+- Jade html2jade http://html2jade.org/
+- Pugjs https://pugjs.org/api/getting-started.html
 
 ### Socket.io
 - Sample chat https://github.com/Automattic/happychat-service
 
 ### WP
 - New Wordpress with API https://github.com/Automattic/wp-calypso
+- WP Job Management https://wpjobmanager.com/
+
+### Mongodb
+- Installation Mongodb on Mac http://treehouse.github.io/installation-guides/mac/mongo-mac.html
+- Mongodb documentation https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
