@@ -50,6 +50,9 @@ db.users.find(); // db.users.find().pretty();
 
 # update user
 db.users.update({name:'Hung Le'}, {$set:{email:'test@tmail.com'}}); // update
+
+# remove
+db.users.remove({})
 db.users.remove({username:'test'});
 
 # category & post
@@ -72,6 +75,7 @@ req.checkBody
 3. Hashing password with Bcrypt
 
 4. Passport login authentication
+- Login authentication for nodejs
 
 5. Access Control
 ```
