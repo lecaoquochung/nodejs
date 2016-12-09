@@ -78,6 +78,7 @@ req.checkBody
 - Login authentication for nodejs
 
 5. Access Control
+- Login & Logout with suitable view
 ```
 
 ## Reference

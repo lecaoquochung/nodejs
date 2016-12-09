@@ -1,8 +1,8 @@
 # NODEJS - Practice nodejs
 - [x] Project 01: Contact form (Sendgrid)
 - [ ] Project 02: Website
-- [ ] Project 03: Blog
-- [ ] Project 04: Login system
+- [ ] Project 03: Blog (Express)
+- [x] Project 04: Login system (Express)
 - [ ] Project 05: Works (Job board with MEAN.js)
 - [ ] Project 06: Image Sharing API
 - [x] Project 07: Shopping Cart
@@ -25,11 +25,16 @@
 - [ ] Project 24: Promise
 - [ ] Project 25: Mongodb
 - [ ] Project 26: ORM (Database with Sequelize)
-- [ ] Project 23:
 - [ ] Reference
 
 ## Project 01: Contact Form
 - https://github.com/lecaoquochung/nodejs/tree/master/contact
+1. Dependencies
+2. Environment
+- Run
+```
+Install all dependencies
+```
 
 ## Project 02: Website
 - Express
@@ -38,14 +43,20 @@
 - Contact
 
 ## Project 03: Blog
-- [ ] Mongodb
-- [ ] Middleware
-- [ ] Routes & Views
-- [ ] Categories
-- [ ] Articles
-- [ ] Comments
+1. Dependencies
+2. Mongodb
+3. Middleware
+4. Routes & Views
+5. Functions
+- Categories
+- Articles
+- Comments
 
 ## Project 04: Login system
+1. Dependencies
+2. Init mongodb
+3. Functions
+
 
 ## Project 07: Shopping Cart
 - [x] Init
@@ -222,9 +233,24 @@ npm install --save express-handlebars // Express view engine
 2. Code consistency
 - http://stackoverflow.com/questions/242813/when-to-use-double-or-single-quotes-in-javascript#18041188
 
+### NPM
+- moment: format date time https://github.com/moment/moment
+- monk: query service for mongodb https://github.com/Automattic/monk
+- cookie-parser: express req.cookie parser https://github.com/expressjs/cookie-parser
+- debug: nodejs debugger https://github.com/visionmedia/debug
+- morgan: request logger (Express Node Middleware) https://github.com/expressjs/morgan
+- connect-flash: show flash https://github.com/jaredhanson/connect-flash
+- express-messages express flash message https://github.com/expressjs/express-messages
+
 ### Express
 1. Express validator
 - https://github.com/ctavan/express-validator
+2. Express generator
+- http://expressjs.com/en/starter/generator.html
+```
+# Default skeleton (jade view framework)
+express --view=jade myapp
+```
 
 ### Bootstrap 4
 - https://v4-alpha.getbootstrap.com/

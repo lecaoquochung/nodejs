@@ -14,8 +14,9 @@ npm install --save dot
 * dot: template framework
 ```
 
-## Sendgrid
+## Environment
 ```
+* Sendgrid
 SENDGRID_KEY;
 SENDGRID_USERNAME;
 SENDGRID_PASSWORD;
