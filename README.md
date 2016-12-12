@@ -25,6 +25,8 @@
 - [ ] Project 24: Promise
 - [ ] Project 25: Mongodb
 - [ ] Project 26: ORM (Database with Sequelize)
+- [ ] Project 27: Test (Mocha, Phantomjs)
+- [ ] Project 28: API
 - [ ] Reference
 
 ## Project 01: Contact Form
@@ -251,6 +253,13 @@ npm install --save express-handlebars // Express view engine
 # Default skeleton (jade view framework)
 express --view=jade myapp
 ```
+
+### Restful API
+1. Example Express Restfull API with router https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4
+
+### Test
+- Mocha with Supertest https://glebbahmutov.com/blog/how-to-correctly-unit-test-express-server/
+- Mocha Phantomjs https://github.com/nathanboktae/mocha-phantomjs
 
 ### Bootstrap 4
 - https://v4-alpha.getbootstrap.com/
