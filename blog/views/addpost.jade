@@ -27,3 +27,6 @@ block content
 				option(value='Le Hung') Le Hung
 				option(value='No Name') No Name
 		input.btn.btn-default(name='submit',type='submit',value='Save')
+	script(src='/ckeditor/ckeditor.js')
+	script
+		| CKEDITOR.replace('body');

@@ -15,10 +15,11 @@ var expressValidator = require('express-validator');
 var mongo = require('mongodb');
 var db = require('monk')('localhost/nodeblog');
 
-// Routes
-var routes = require('./routes/index');
+// Routes file
+var index = require('./routes/index');
 var users = require('./routes/users');
 var posts = require('./routes/posts');
+var categories = require('./routes/categories');
 
 var app = express();
 
@@ -75,9 +76,11 @@ app.use(function(req,res,next){
     next();
 });
 
-app.use('/', routes);
+// Router
+app.use('/', index);
 app.use('/users', users);
 app.use('/posts', posts);
+app.use('/categories', categories);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
