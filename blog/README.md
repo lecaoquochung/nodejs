@@ -15,6 +15,7 @@ npm install --save multer
 npm install --save moment
 npm install --save mongodb
 npm install --save express-messages
+```
 
 ## Init Db
 ```
@@ -35,6 +36,9 @@ db.posts.insert({title:"Blog post two", category:"Science", author:"Dep Trai", b
 db.categories.insert({name:"Technology"});
 db.categories.insert({name:"Science"});
 db.categories.insert({name:"Business"});
+
+// DELETE
+db.posts.delete({});
 ```
 
 ## Functions
@@ -44,3 +48,6 @@ db.categories.insert({name:"Business"});
 4. Text Editor & Add categories
 5. Truncate text & Category view
 6. Single post & Comments
+
+## SUMMARY
+- Mongoose might be better than monk with MVC style

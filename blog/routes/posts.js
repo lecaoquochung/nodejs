@@ -3,7 +3,7 @@
 var express = require('express');
 var router = express.Router();
 var multer = require('multer');
-var upload = multer({ dest: 'uploads/' })
+var upload = multer({ dest: './public/images' })
 var mongo = require('mongodb');
 var db = require('monk')('localhost/nodeblog');
 
@@ -14,7 +14,11 @@ router.get('/add', function(req, res, next) {
     // });
 
 	var categories = db.get('categories');
+	// TODO
+    // console.log("/////////// categories: " + JSON.stringify(categories));
 
+    // TODO monk find();
+    // https://automattic.github.io/monk/docs/collection/find.html
 	categories.find({},{},function(err, categories){
 		res.render('addpost',{
   			'title': 'Add Post',
@@ -32,12 +36,15 @@ router.post('/add', upload.single('mainimage'), function(req, res, next) {
   var date = new Date();
 
   // test
-  // console.log("/////////// title " + title);
+  console.log("/////////// title: " + title);
+  console.log("/////////// category: " + category);
+  console.log("/////////// body: " + body);
+  console.log("/////////// author: " + author);
+  console.log("/////////// date: " + date);
 
   // Check Image Upload
-  console.log('////// req.file ' + JSON.stringify(req.file));
   if(req.file) {
-  	var mainimage = req.file.filename
+  	var mainimage = req.file.filename;
   } else {
   	var mainimage = 'noimage.jpg';
   }
@@ -48,6 +55,7 @@ router.post('/add', upload.single('mainimage'), function(req, res, next) {
 
   // Check Errors
   var errors = req.validationErrors();
+  console.log("/////////// errors: " + JSON.stringify(errors));
 
   if(errors) {
 	res.render('addpost',{

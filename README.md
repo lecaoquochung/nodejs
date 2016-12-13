@@ -235,6 +235,9 @@ npm install --save express-handlebars // Express view engine
 2. Code consistency
 - http://stackoverflow.com/questions/242813/when-to-use-double-or-single-quotes-in-javascript#18041188
 
+### Nodejs
+- Package management https://nodejs.org/en/download/package-manager/
+
 ### NPM
 - moment: format date time https://github.com/moment/moment
 - monk: query service for mongodb https://github.com/Automattic/monk
@@ -243,6 +246,7 @@ npm install --save express-handlebars // Express view engine
 - morgan: request logger (Express Node Middleware) https://github.com/expressjs/morgan
 - connect-flash: show flash https://github.com/jaredhanson/connect-flash
 - express-messages express flash message https://github.com/expressjs/express-messages
+- n: package for node version https://github.com/tj/n
 
 ### Express
 1. Express validator
