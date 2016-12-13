@@ -259,6 +259,7 @@ express --view=jade myapp
 
 ### METEOR
 - Install https://www.meteor.com/install
+- Mongo collection & schema https://guide.meteor.com/collections.html
 - socketio example https://github.com/Akryum/meteor-socket-io
 
 ### Restful API
