@@ -258,6 +258,7 @@ express --view=jade myapp
 ```
 
 ### METEOR
+- Install https://www.meteor.com/install
 - socketio example https://github.com/Akryum/meteor-socket-io
 
 ### Restful API

@@ -24,13 +24,18 @@ meteor npm install --save angular angular-meteor
 
 ## MONGO DB
 ```
-meteor mongo 
+meteor mongo
 
 # inser data to db
 db.tasks.insert({ text: "Hello world!", createdAt: new Date() });
+db.tasks.insert({ text: "Task 01", createdAt: new Date() });
+db.tasks.insert({ text: "Task 02", createdAt: new Date() });
+
+# delete
+db.tasks.remove({});
 ```
 
 ## REFERENCE
 - Angularjs todo app https://www.meteor.com/tutorials/angular/creating-an-app
-- Collections and Schemashttps://guide.meteor.com/collections.html 
+- Collections and Schemashttps://guide.meteor.com/collections.html
 - Application structure https://guide.meteor.com/structure.html
