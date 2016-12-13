@@ -22,23 +22,26 @@ npm install --save express-messages
 dbname: nodeblog
 show dbs;
 use nodeblog;
-db.createCollection('categories');
-db.createCollection('posts');
 
 // check existing createCollection
 show collections
 
 // init posts
+db.createCollection('posts');
 db.posts.insert({title:"Blog post one", category:"Technology", author:"Hung Le", body: "Body", date:ISODate()});
 db.posts.insert({title:"Blog post two", category:"Science", author:"Dep Trai", body: "Body 2", date:ISODate()});
 
 // init categories
+db.createCollection('categories');
 db.categories.insert({name:"Technology"});
 db.categories.insert({name:"Science"});
 db.categories.insert({name:"Business"});
 
+// init comments
+db.createCollection('comments');
+
 // DELETE
-db.posts.delete({});
+db.posts.remove({});
 ```
 
 ## Functions

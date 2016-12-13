@@ -5,7 +5,7 @@ block content
    each post, i in posts
     .post
      h1
-      a(href='/posts/show/#{post._id}')
+      a(href='/posts/view/#{post._id}')
        =post.title
      p.meta Posted in
       a(href='/categories/show/#{post.category}') #{post.category}
@@ -13,4 +13,4 @@ block content
       on #{moment(post.date).format("MM-DD-YYYY")}
      img(src='/images/#{post.mainimage}')
      !=truncateText(post.body,400)
-     a.more(href='/posts/show/#{post._id}') Read More
+     a.more(href='/posts/view/#{post._id}') Read More
