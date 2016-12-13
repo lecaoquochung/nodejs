@@ -257,6 +257,9 @@ npm install --save express-handlebars // Express view engine
 express --view=jade myapp
 ```
 
+### METEOR
+- socketio example https://github.com/Akryum/meteor-socket-io
+
 ### Restful API
 1. Example Express Restfull API with router https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4
 
