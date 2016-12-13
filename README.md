@@ -1,7 +1,7 @@
 # NODEJS - Practice nodejs
 - [x] Project 01: Contact form (Sendgrid)
 - [ ] Project 02: Website
-- [ ] Project 03: Blog (Express)
+- [x] Project 03: Blog (Express)
 - [x] Project 04: Login system (Express)
 - [ ] Project 05: Works (Job board with MEAN.js)
 - [ ] Project 06: Image Sharing API
@@ -47,9 +47,8 @@ Install all dependencies
 ## Project 03: Blog
 1. Dependencies
 2. Mongodb
-3. Middleware
-4. Routes & Views
-5. Functions
+3. Routes & Views
+4. Functions
 - Categories
 - Articles
 - Comments

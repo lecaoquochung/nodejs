@@ -54,3 +54,5 @@ db.posts.remove({});
 
 ## SUMMARY
 - Mongoose might be better than monk with MVC style
+- Need some expansion work for real blog function (This is just for practice nodejs route & validation with express)
+- Expansion: Login, Image Processing, Frontend & Design, Dashboard
