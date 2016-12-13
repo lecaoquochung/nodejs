@@ -8,6 +8,7 @@ class TodosListCtrl {
     // constructor
     // TODO How to use that thing?
     // var $scope, this.helpers
+    // angularjs pre-define libs
     constructor($scope) {
         $scope.viewModel(this);
 
@@ -25,7 +26,7 @@ class TodosListCtrl {
         })
     }
 
-    // add task
+    // add task input
     addTask(newTask) {
         // Insert a task into the collection
         Tasks.insert({
@@ -35,6 +36,21 @@ class TodosListCtrl {
 
         // Clear form
         this.newTask = '';
+    }
+
+    // check box
+    setChecked(task) {
+        // Set the checked property to the opposite of its current value
+        Tasks.update(task._id, {
+            $set: {
+                checked: !task.checked
+            },
+        });
+    }
+
+    // remove task
+    removeTask(task) {
+        Tasks.remove(task._id);
     }
 
 }

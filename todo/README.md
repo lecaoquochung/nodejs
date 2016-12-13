@@ -1,8 +1,8 @@
 # Project 17: TODO (Meteor.js)
 
 ## GET STARTED
-- Install Meteor.js https://www.meteor.com/install
 ```
+# install meteor
 curl https://install.meteor.com/ | sh
 cd todo
 meteor npm install
@@ -36,6 +36,7 @@ db.tasks.remove({});
 ```
 
 ## REFERENCE
+- Source https://github.com/meteor/simple-todos-angular
 - Angularjs todo app https://www.meteor.com/tutorials/angular/creating-an-app
 - Collections and Schemashttps://guide.meteor.com/collections.html
 - Application structure https://guide.meteor.com/structure.html
