@@ -262,6 +262,9 @@ express --view=jade myapp
 - Mongo collection & schema https://guide.meteor.com/collections.html
 - socketio example https://github.com/Akryum/meteor-socket-io
 
+- Install ios
+http://guide.meteor.com/mobile.html#installing-prerequisites
+
 ### Restful API
 1. Example Express Restfull API with router https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4
 

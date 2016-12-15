@@ -7,6 +7,21 @@ curl https://install.meteor.com/ | sh
 cd todo
 meteor npm install
 meteor
+
+# init ios (mac only)
+meteor install-sdk ios
+meteor add-platform ios
+meteor run ios
+meteor run ios-device
+
+# init android
+meteor install-sdk android
+meteor add-platform android
+meteor run android
+meteor run android-device
+
+Prerequistite https://guide.meteor.com/mobile.html#installing-prerequisites
+
 ```
 - http://localhost:3000
 
