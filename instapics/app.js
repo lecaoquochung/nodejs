@@ -4,9 +4,8 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-
-var routes = require('./routes/index');
-var users = require('./routes/users');
+var session = require('express-session');
+var flash = require('connect-flash');
 
 var app = express();
 
@@ -22,8 +21,28 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', routes);
-app.use('/users', users);
+// Express Session
+app.use(session({
+    secret: 'secret',
+    saveUninitialized: true,
+    resave: true
+}));
+
+// Connect-Flash
+app.use(flash());
+
+// Global Vars
+app.use(function (req, res, next) {
+    res.locals.messages = require('express-messages')(req, res);
+    next();
+});
+
+// Home Route
+app.get('/', function(req, res){
+  res.render('index', {
+    title: 'Welcome'
+  });
+})
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -3,15 +3,20 @@
 
 # DEPENDENCIES
 ```
-# express default plus below
-"express-messages":"*",
-"express-session":"*",
-"connect-flash":"*",
-"moment": "*",
-"instagram-node":"*"
+# express default
+express instapics
+
+# plus bellow
+npm install --save express-messages
+npm install --save express-session
+npm install --save connect-flash
+npm install --save moment
+npm install --save instagram-node
+
 ```
 
 # GET STARTED
+- route
 ```
-express instapics
+
 ```
