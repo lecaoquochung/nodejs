@@ -4,7 +4,7 @@
 - [x] Project 03: Blog (Express)
 - [x] Project 04: Login system (Express)
 - [ ] Project 05: Works (Job board with MEAN.js)
-- [ ] Project 06: Image Sharing API
+- [ ] Project 06: Instapics (Instagram Image API)
 - [x] Project 07: Shopping Cart
 - [ ] Project 08: Community Events
 - [ ] Project 09: ChatIO (web socket)
