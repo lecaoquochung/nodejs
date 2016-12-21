@@ -19,12 +19,16 @@
 - [ ] Project 18: TODO2 (METEOR.js & React)
 - [ ] Project 19: Tools
 - [ ] Project 20: Forum
-- [ ] Project 21: Angular
-- [ ] Project 22: React
+- [ ] Project 21: Angularjs
+- [ ] Project 22: Reactjs
 - [ ] Project 23: Validation
 - [ ] Project 24: Promise
 - [ ] Project 25: Mongodb
 - [ ] Project 26: ORM (Database with Sequelize)
+- [ ] Project 27: Timeline API
+- [ ] Project 28: File Upload
+- [ ] Project 29: Back-end API
+- [ ] Project 30: Front-end Endpoint
 - [ ] Reference
 
 ## Project 01: Contact Form
