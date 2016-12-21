@@ -15,12 +15,24 @@ var expressValidator = require('express-validator');
 var mongo = require('mongodb');
 var db = require('monk')('localhost/nodeblog');
 
-var routes = require('./routes/index');
+// Routes file
+var index = require('./routes/index');
 var users = require('./routes/users');
+var posts = require('./routes/posts');
+var categories = require('./routes/categories');
 
 var app = express();
 
-// view engine setup
+// app.locals ?
+app.locals.moment = require('moment');
+
+app.locals.truncateText = function(text, length){
+  var truncatedText = text.substring(0, length);
+
+  return truncatedText;
+}
+
+// View
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
@@ -49,6 +61,7 @@ app.use(expressValidator({
     while(namespace.length) {
       formParam += '[' + namespace.shift() + ']';
     }
+
     return {
       param : formParam,
       msg   : msg,
@@ -56,7 +69,6 @@ app.use(expressValidator({
     };
   }
 }));
-
 
 // Connect-Flash
 app.use(require('connect-flash')());
@@ -71,8 +83,11 @@ app.use(function(req,res,next){
     next();
 });
 
-app.use('/', routes);
+// Router
+app.use('/', index);
 app.use('/users', users);
+app.use('/posts', posts);
+app.use('/categories', categories);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

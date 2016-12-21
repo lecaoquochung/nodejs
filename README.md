@@ -1,7 +1,7 @@
 # NODEJS - Practice nodejs
 - [x] Project 01: Contact form (Sendgrid)
 - [ ] Project 02: Website
-- [ ] Project 03: Blog (Express)
+- [x] Project 03: Blog (Express)
 - [x] Project 04: Login system (Express)
 - [ ] Project 05: Works (Job board with MEAN.js)
 - [ ] Project 06: Image Sharing API
@@ -29,6 +29,8 @@
 - [ ] Project 28: File Upload
 - [ ] Project 29: Back-end API
 - [ ] Project 30: Front-end Endpoint
+- [ ] Project 31: Test (Mocha, Phantomjs)
+- [ ] Project 32: API
 - [ ] Reference
 
 ## Project 01: Contact Form
@@ -49,9 +51,8 @@ Install all dependencies
 ## Project 03: Blog
 1. Dependencies
 2. Mongodb
-3. Middleware
-4. Routes & Views
-5. Functions
+3. Routes & Views
+4. Functions
 - Categories
 - Articles
 - Comments
@@ -237,6 +238,9 @@ npm install --save express-handlebars // Express view engine
 2. Code consistency
 - http://stackoverflow.com/questions/242813/when-to-use-double-or-single-quotes-in-javascript#18041188
 
+### Nodejs
+- Package management https://nodejs.org/en/download/package-manager/
+
 ### NPM
 - moment: format date time https://github.com/moment/moment
 - monk: query service for mongodb https://github.com/Automattic/monk
@@ -245,6 +249,7 @@ npm install --save express-handlebars // Express view engine
 - morgan: request logger (Express Node Middleware) https://github.com/expressjs/morgan
 - connect-flash: show flash https://github.com/jaredhanson/connect-flash
 - express-messages express flash message https://github.com/expressjs/express-messages
+- n: package for node version https://github.com/tj/n
 
 ### Express
 1. Express validator
@@ -255,6 +260,21 @@ npm install --save express-handlebars // Express view engine
 # Default skeleton (jade view framework)
 express --view=jade myapp
 ```
+
+### METEOR
+- Install https://www.meteor.com/install
+- Mongo collection & schema https://guide.meteor.com/collections.html
+- socketio example https://github.com/Akryum/meteor-socket-io
+
+- Install ios
+http://guide.meteor.com/mobile.html#installing-prerequisites
+
+### Restful API
+1. Example Express Restfull API with router https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4
+
+### Test
+- Mocha with Supertest https://glebbahmutov.com/blog/how-to-correctly-unit-test-express-server/
+- Mocha Phantomjs https://github.com/nathanboktae/mocha-phantomjs
 
 ### Bootstrap 4
 - https://v4-alpha.getbootstrap.com/
