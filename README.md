@@ -250,6 +250,7 @@ npm install --save express-handlebars // Express view engine
 - connect-flash: show flash https://github.com/jaredhanson/connect-flash
 - express-messages express flash message https://github.com/expressjs/express-messages
 - n: package for node version https://github.com/tj/n
+- instagram-node: https://github.com/totemstech/instagram-node
 
 ### Express
 1. Express validator

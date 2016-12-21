@@ -4,19 +4,23 @@ html
     title= title
     link(rel='stylesheet', href='/stylesheets/kickstart.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/lightbox.css')
     script(src='http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js')
     script(src='/javascripts/kickstart.js')
   body
    ul.menu
     li
      a(href='/') INSTAPICS
-    li
-     a(href='/login') Login With Instagram
-    li
-     a(href='/main') Main Feed
-    li
-     a(href='/me') My Images
-    li
-     a(href='/logout') Logout
+    if !isLoggedIn
+     li
+      a(href='/login') Login With Instagram
+    else
+     li
+      a(href='/main') Main Feed
+     li
+      a(href='/me') My Images
+     li
+      a(href='/logout') Logout
    .grid
    block content
+   script(src='/javascripts/lightbox.js')

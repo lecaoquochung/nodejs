@@ -1,0 +1,28 @@
+extends layout
+
+block content
+ .col_12
+  .col_9
+   if isLoggedIn
+    h2=title
+    each media, i in medias
+     .col_4
+      a(href='#{media.images.low_resolution.url}' data-lightbox='image-set')
+       img(src="#{media.images.low_resolution.url}")
+      small.meta Posted By: #{media.user.username} on #{formatDate(media.created_time)}
+   else
+    p Please login to view feed
+  .col_3
+   if isLoggedIn
+    h5 Welcome #{user.full_name} (#{user.username})
+    ul.info
+     li
+      div.redbox
+       h5 Posts
+       h4 #{user.counts.media}
+     li.bluebox
+      h5 Followers
+      h4 #{user.counts.followed_by}
+     li.greenbox
+      h5 Following
+      h4 #{user.counts.follows}

@@ -1,8 +1,36 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background:#f4f4f4;
 }
 
-a {
-  color: #00B7FF;
+.info{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+img{
+	width:100%;
+	border:1px solid #ccc;
+    padding:4px;
+}
+
+.redbox,.bluebox,.greenbox{
+    padding:10px 5px;
+    border:#ccc solid 1px;
+    text-align: center;
+}
+
+.redbox{
+    background: red;
+    color:#fff;
+}
+
+.bluebox{
+    background: blue;
+    color:#fff;
+}
+
+.greenbox{
+    background: green;
+    color:#fff;
 }
