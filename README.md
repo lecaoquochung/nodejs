@@ -5,7 +5,7 @@
 - [x] Project 04: Login system (Express)
 - [ ] Project 05: Works (Job board with MEAN.js)
 - [ ] Project 06: Instapics (Instagram Image API)
-- [x] Project 07: Shopping Cart
+- [x] Project 07: DBook (Ebook shopping cart)
 - [ ] Project 08: Community Events
 - [ ] Project 09: ChatIO (web socket)
 - [ ] Project 10: Find data (Cassandra)
@@ -59,103 +59,16 @@ Install all dependencies
 
 ## Project 04: Login system
 1. Dependencies
-2. Init mongodb
+2. Get started
 3. Functions
+4. Memo
 
 
-## Project 07: Shopping Cart
-- [x] Init
-- [x] Routes & Views
-- [x] Database & Models
-- [x] Admin CRUD
-- [x] Shopping Cart
-- [ ] Expansion
-
-### Init
-- kranken & foundation http://krakenjs.com/
-```
-npm install -g yo generator-kraken bower grunt-cli
-yo kraken
-npm install mongodb mongoose connect-flash express-messages
-npm start
-```
-
-### Routes & Views
-```
-{>"layouts/master" /}
-```
-
-### Database & Models
-- Mongodb
-'''
-mongod // start server
-mongo // connect to server
-show dbs
-use project07 // create db
-
-db.createCollection('books');
-db.createCollection('categorites');
-
-show collections;
-
-// insert a book
-db.books.insert({title:"Book 01 title",description:"Book 01 description",category:"Nodejs",author:"Le Hung",publisher:"somewhere",price:"19.99",cover:"node1.jpg"})
-db.books.insert({title:"Book 02 title",description:"Book 02 description",category:"Nodejs",author:"Le Hung",publisher:"somewhere",price:"29.99",cover:"node2.jpg"})
-db.books.find()
-
-// insert category
-db.categories.insert({name:"Nodejs"})
-'''
-
-- Logic in controller
-```
-var Book = require('../models/bookModel');
-var Category = require('../models/categoryModel');
-
-Book.findOne({_id: req.params.id}, function(err, book){...}
-
-res.render('index', model);
-```
-
-- View
-```
-{>"layouts/master" /}
-
-{<body}
-    {#books}
-    	<div class="large-3 columns book end">
-    		<img src="/img/{.cover}">
-    		<h4>{.title}</h4>
-    		<p>{.truncText}</p>
-    		<div class="price">Buy it for <span>${.price}</span></div>
-    		<br>
-    		<a href="/books/details/{._id}" class="button small">Book Details</a>
-    	</div>
-    {/books}
-{/body}
-```
-
-- Reference
- - https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
-
-### Admin CRUD
-- Edit & Delete
-- List & Add
-
-### Shopping Cart
-'''
-npm install dustjs-helpers --save // view helpers
-'''
-
-### Expansion
-- Login
-- Template
-- Contact form
-- Locale language
-
-### Reference
- - http://krakenjs.com/
- - http://foundation.zurb.com/
+## Project 07: DBook (Ebook shopping cart)
+1. Dependencies
+2. Get started
+3. Functions
+4. Memo
 
 ## Project 09: ChatIO (web socket)
 ### Chat Interface
@@ -301,6 +214,11 @@ http://guide.meteor.com/mobile.html#installing-prerequisites
 ### Mongodb
 - Installation Mongodb on Mac http://treehouse.github.io/installation-guides/mac/mongo-mac.html
 - Mongodb documentation https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
+
+### Brew (MacOS package manager)
+```
+sudo chown root:wheel /usr/local
+```
 
 ### Other
 - mlab.com

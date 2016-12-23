@@ -1,14 +1,16 @@
 # Project 07: DBook (Ebook shopping cart)
 
 ## Dependencies
-
-## Get started
-### Init
-- kranken & foundation http://krakenjs.com/
+- kranken
 ```
 npm install -g yo generator-kraken bower grunt-cli
 yo kraken
 npm install mongodb mongoose connect-flash express-messages
+```
+
+## Get started
+### Init
+```
 npm start
 ```
 
