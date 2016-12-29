@@ -6,6 +6,8 @@
 npm install -g yo generator-kraken bower grunt-cli
 yo kraken
 npm install --save mongodb mongoose connect-flash express-messages
+
+npm install --save dustjs-helpers
 ```
 
 ## Get started
@@ -69,6 +71,26 @@ res.render('index', model);
     	</div>
     {/books}
 {/body}
+```
+
+## TODO
+- Alert message validation with form
+- CSRF token missing after redirect from paypal
+```
+Error: CSRF token missing
+   at checkCsrf (/Users/hungle/Sites/projects/nodejs/dbook/node_modules/lusca/lib/csrf.js:89:18)
+   at /Users/hungle/Sites/projects/nodejs/dbook/node_modules/lusca/index.js:48:21
+   at xframe (/Users/hungle/Sites/projects/nodejs/dbook/node_modules/lusca/lib/xframes.js:12:9)
+   at /Users/hungle/Sites/projects/nodejs/dbook/node_modules/lusca/index.js:48:21
+   at lusca (/Users/hungle/Sites/projects/nodejs/dbook/node_modules/lusca/index.js:53:9)
+   at Layer.handle [as handle_request] (/Users/hungle/Sites/projects/nodejs/dbook/node_modules/express/lib/router/layer.js:95:5)
+   at trim_prefix (/Users/hungle/Sites/projects/nodejs/dbook/node_modules/express/lib/router/index.js:312:13)
+   at /Users/hungle/Sites/projects/nodejs/dbook/node_modules/express/lib/router/index.js:280:7
+   at Function.process_params (/Users/hungle/Sites/projects/nodejs/dbook/node_modules/express/lib/router/index.js:330:12)
+   at next (/Users/hungle/Sites/projects/nodejs/dbook/node_modules/express/lib/router/index.js:271:10)
+   at Immediate.<anonymous> (/Users/hungle/Sites/projects/nodejs/dbook/node_modules/express-session/index.js:473:7)
+   at Immediate.immediate._onImmediate (timers.js:440:18)
+   at processImmediate [as _immediateCallback] (timers.js:383:17)
 ```
 
 - Reference
