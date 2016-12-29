@@ -5,7 +5,7 @@ block content
   .col_9
    if isLoggedIn
     h2=title
-    each media, i in medias
+    each media in medias
      .col_4
       a(href='#{media.images.low_resolution.url}' data-lightbox='image-set')
        img(src="#{media.images.low_resolution.url}")
