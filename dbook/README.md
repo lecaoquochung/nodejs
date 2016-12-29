@@ -1,11 +1,11 @@
-# Project 07: DBook (Ebook shopping cart)
+# Project 8007: DBook (Ebook shopping cart)
 
 ## Dependencies
 - kranken
 ```
 npm install -g yo generator-kraken bower grunt-cli
 yo kraken
-npm install mongodb mongoose connect-flash express-messages
+npm install --save mongodb mongoose connect-flash express-messages
 ```
 
 ## Get started
@@ -25,7 +25,7 @@ npm start
 mongod // start server
 mongo // connect to server
 show dbs
-use project07 // create db
+use dbook // create db
 
 db.createCollection('books');
 db.createCollection('categorites');
@@ -34,8 +34,10 @@ show collections;
 
 // insert a book
 db.books.insert({title:"Book 01 title",description:"Book 01 description",category:"Nodejs",author:"Le Hung",publisher:"somewhere",price:"19.99",cover:"node1.jpg"})
+
 db.books.insert({title:"Book 02 title",description:"Book 02 description",category:"Nodejs",author:"Le Hung",publisher:"somewhere",price:"29.99",cover:"node2.jpg"})
-db.books.find()
+
+db.books.find();
 
 // insert category
 db.categories.insert({name:"Nodejs"})

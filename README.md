@@ -1,11 +1,11 @@
 # NODEJS - Practice nodejs
-- [x] Project 01: Contact form (Sendgrid)
-- [ ] Project 02: Website
-- [x] Project 03: Blog (Express)
-- [x] Project 04: Login system (Express)
-- [ ] Project 05: Works (Job board with MEAN.js)
-- [ ] Project 06: Instapics (Instagram Image API)
-- [x] Project 07: DBook (Ebook shopping cart)
+- [x] Project 8001: Contact form (Sendgrid)
+- [ ] Project 8002: Website
+- [x] Project 8003: Blog (Express)
+- [x] Project 8004: Login system (Express)
+- [ ] Project 8005: Works (Job board with MEAN.js)
+- [ ] Project 8006: Instapics (Instagram Image API)
+- [x] Project 8007: DBook (Ebook shopping cart)
 - [ ] Project 08: Community Events
 - [ ] Project 09: ChatIO (web socket)
 - [ ] Project 10: Find data (Cassandra)
