@@ -1,4 +1,4 @@
-# BLOG
+# Project 8003: BLOG
 
 ## Dependencies
 ```
@@ -15,6 +15,7 @@ npm install --save multer
 npm install --save moment
 npm install --save mongodb
 npm install --save express-messages
+npm install --save app-module-path
 ```
 
 ## Init Db

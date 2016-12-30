@@ -8,6 +8,7 @@ body {
 	text-align: center;
 	margin:auto;
 	display:block;
+    width: auto%;
 }
 
 .container{
@@ -15,7 +16,7 @@ body {
 	border: 1px solid #ccc;
 	margin: 20px auto;
 	padding:20px;
-	border-top: #83cd39 3px solid;
+	border-top: #2e6da4 3px solid;
 }
 
 .clr{
@@ -58,8 +59,8 @@ nav a{
 }
 
 nav a.current, nav a:hover{
-	background: #83cd29;
-	color:#000;
+	background: #2e6da4;
+	color:#fff;
 }
 
 .meta{
@@ -124,4 +125,8 @@ ul.success li{
   	background-color: #dff0d8;
   	border-color: #d6e9c6;
   	list-style:none;
+}
+
+img.main-image {
+    width: 80%;
 }

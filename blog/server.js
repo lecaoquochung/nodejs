@@ -1,10 +1,7 @@
-#!/usr/bin/env node
+'use strict';
 
-/**
- * Module dependencies.
- */
-
-var app = require('../app');
+require("app-module-path").addPath(__dirname);
+var app = require('app');
 var debug = require('debug')('blog:server');
 var http = require('http');
 
@@ -86,5 +83,5 @@ function onListening() {
   var bind = typeof addr === 'string'
     ? 'pipe ' + addr
     : 'port ' + addr.port;
-  debug('Listening on ' + bind);
+  console.log('Listening on ' + bind);
 }

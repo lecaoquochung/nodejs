@@ -30,7 +30,7 @@ show dbs
 use dbook // create db
 
 db.createCollection('books');
-db.createCollection('categorites');
+db.createCollection('categories');
 
 show collections;
 
@@ -92,6 +92,7 @@ Error: CSRF token missing
    at Immediate.immediate._onImmediate (timers.js:440:18)
    at processImmediate [as _immediateCallback] (timers.js:383:17)
 ```
+- Mongodb delete collection
 
 - Reference
  - https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/

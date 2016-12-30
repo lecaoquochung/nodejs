@@ -11,6 +11,6 @@ block content
       a(href='/categories/show/#{post.category}') #{post.category}
       by #{post.author}
       on #{moment(post.date).format("MM-DD-YYYY")}
-     img(src='/images/#{post.mainimage}')
+     img.main-image(src='/images/#{post.mainimage}')
      !=truncateText(post.body,400)
      a.more(href='/posts/view/#{post._id}') Read More

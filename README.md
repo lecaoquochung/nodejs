@@ -33,7 +33,7 @@
 - [ ] Project 8032: API
 - [ ] Reference
 
-## Project 01: Contact Form
+## Project 8001: Contact Form
 - https://github.com/lecaoquochung/nodejs/tree/master/contact
 1. Dependencies
 2. Environment
@@ -42,13 +42,13 @@
 Install all dependencies
 ```
 
-## Project 02: Website
+## Project 8002: Website
 - Express
 - Layout
 - JSON data file
 - Contact
 
-## Project 03: Blog
+## Project 8003: Blog
 1. Dependencies
 2. Mongodb
 3. Routes & Views
@@ -57,20 +57,20 @@ Install all dependencies
 - Articles
 - Comments
 
-## Project 04: Login system
+## Project 8004: Login system
 1. Dependencies
 2. Get started
 3. Functions
 4. Memo
 
 
-## Project 07: DBook (Ebook shopping cart)
+## Project 8007: DBook (Ebook shopping cart)
 1. Dependencies
 2. Get started
 3. Functions
 4. Memo
 
-## Project 09: ChatIO (web socket)
+## Project 8009: ChatIO (web socket)
 ### Chat Interface
 - Raw HTML, CSS
 
@@ -83,7 +83,7 @@ Install all dependencies
 ### Reference
 - SocketIO http://socket.io/docs/
 
-## Project 14: SocketIO
+## Project 8014: SocketIO
 ### Init
 - Raw HTML, CSS
 - Localhost http://localhost/projects/nodejs/project14/frontend.html
@@ -115,7 +115,7 @@ npm install websocket
 - Web Socket for window user https://github.com/theturtle32/WebSocket-Node#note-for-windows-users
 - V8 JavaScript Engine https://bugs.chromium.org/p/v8/issues/list
 
-## Project 15: Express Framework
+## Project 8015: Express Framework
 ### Navigation
 - [x] Init
 - [ ] Write file
@@ -140,7 +140,7 @@ npm install --save express-handlebars // Express view engine
 ### Reference
 - https://codek.tv/v/xDCKcNBFsuI/express-tutorial/
 
-## Project 16: Amazon Clone
+## Project 8016: Amazon Clone
 
 ### Reference
 - https://www.udemy.com/build-an-amazon-clone-nodejs-stripe-elasticsearch/?pmtag=SEPT1202
