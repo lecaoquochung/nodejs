@@ -30,7 +30,7 @@
 - [ ] Project 8029: Back-end API
 - [ ] Project 8030: Front-end Endpoint
 - [ ] Project 8031: Test (Mocha, Phantomjs)
-- [ ] Project 8032: API (Express)
+- [ ] 8032: API (RESTFUL Node.js app)
 - [ ] Reference
 
 # Project 8001: Contact Form
@@ -78,13 +78,16 @@ Comments
 # Project 8014: SocketIO
 
 # Project 8015: Express Framework
-- [x] Init
-- [ ] Write file
-- [ ] Read file
-- [ ] Reference
+- Get started
+- Sample
 
 # Project 8016: Amazon Clone
+- Get started
+- Sample
 
+# 8032: API (RESTFUL Node.js app)
+- Get started
+- Sample
 
 # Reference
 - Javascript
@@ -92,7 +95,7 @@ Comments
 2. Code consistency
 - http://stackoverflow.com/questions/242813/when-to-use-double-or-single-quotes-in-javascript#18041188
 
--  Nodejs
+- Nodejs
 - Package management https://nodejs.org/en/download/package-manager/
 
 - NPM
@@ -186,4 +189,5 @@ sudo chown root:wheel /usr/local
 - http://jedireza.github.io/drywall
 - Closure & Javascript https://www.sitepoint.com/google-closure-how-not-to-write-javascript/
 - SPHINX document http://www.sphinx-doc.org/en/stable/
+- SSL for Node.js http://www.hacksparrow.com/express-js-https.html
 ```

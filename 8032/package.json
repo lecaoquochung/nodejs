@@ -1,0 +1,28 @@
+{
+  "name": "8032",
+  "version": "1.0.0",
+  "description": "API (RESTFUL Node.js app)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lecaoquochung/nodejs.git"
+  },
+  "keywords": [
+    "8032"
+  ],
+  "author": "lehung",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/lecaoquochung/nodejs/issues"
+  },
+  "homepage": "https://github.com/lecaoquochung/nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "jwt-simple": "^0.5.1",
+    "morgan": "^1.8.1"
+  }
+}
