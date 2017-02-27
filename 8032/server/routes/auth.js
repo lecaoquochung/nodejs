@@ -49,7 +49,7 @@ var auth = {
         var dbUserObj = {
             name: 'admin',
             role: 'admin',
-            username: 'admin@ddnb.info',
+            username: 'lecaoquochung@gmail.com',
         };
 
         return dbUserObj;
@@ -57,10 +57,11 @@ var auth = {
 
     validateUser: function(username) {
         // spoofing the DB response for simplicity
-        var dbUserObj = { // spoofing a userobject from the DB.
+        // spoofing a userobject from the DB.
+        var dbUserObj = {
             name: 'admin',
             role: 'admin',
-            username: 'admin@ddnb.info'
+            username: 'lecaoquochung@gmail.com'
         };
 
         return dbUserObj;

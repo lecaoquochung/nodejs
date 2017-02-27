@@ -6,7 +6,7 @@ var products = require('./products.js');
 var user = require('./users.js');
 
 /*
- * Routes that can be accessed by any one
+ * Routes that can be accessed by anyone
  */
 router.post('/login', auth.login);
 

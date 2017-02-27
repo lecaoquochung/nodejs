@@ -10,7 +10,7 @@ module.exports = function(req, res, next) {
     // We skip the token outh for [OPTIONS] requests.
     //if(req.method == 'OPTIONS') next();
 
-    var token = (req.body && req.body.access_token) || (req.query && req.query.access_token) || req.headers['x-access-token'];
+    var token = (req.body && req.body.access_token) || (req.query && req.query.access_token) || req.headers['token'];
     var key = (req.body && req.body.x_key) || (req.query && req.query.x_key) || req.headers['x-key'];
 
     if (token || key) {
@@ -31,7 +31,7 @@ module.exports = function(req, res, next) {
             var dbUser = validateUser(key); // The key would be the logged in user's username
             if (dbUser) {
 
-
+                // TODO: check user group
                 if ((req.url.indexOf('admin') >= 0 && dbUser.role == 'admin') || (req.url.indexOf('admin') < 0 && req.url.indexOf('/api/v1/') >= 0)) {
                     next(); // To move to next middleware
                 } else {
